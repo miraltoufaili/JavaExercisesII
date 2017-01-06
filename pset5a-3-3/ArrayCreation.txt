@@ -1,0 +1,14 @@
+ANS
+
+a) boolean[] answers = new boolean[20];
+
+b) int[] years = new int [12];
+
+c) class Candidate {
+    private String name;
+    private int votes;
+    }
+
+Candidate [] arr = new Candidate[8];
+
+d) int[][] rainFall = new int[5][12]

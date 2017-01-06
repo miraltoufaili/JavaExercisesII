@@ -1,0 +1,30 @@
+ANS: if (isSunny && hasDeck && isNew && hasSwimmingPool && isNoisy && mileToHarvard < 1.0 && rent <=500)
+
+
+
+//Code works!
+
+class Craiglist
+{
+    public static void main(String[] args)
+    { 
+        boolean isSunny = true;
+        boolean hasDeck = true;
+        boolean isNew = true;
+        boolean hasSwimmingPool = true;
+        boolean isNoisy = true;
+        double mileToHarvard = 0.9;
+        int rent = 450; 
+        
+        if (isSunny && hasDeck && isNew && hasSwimmingPool && isNoisy && mileToHarvard < 1.0 && rent <=500)
+        {
+            System.out.println("I'll take it!");
+        } else {
+           System.out.println("No thanks!");
+
+        
+        }
+        
+}
+}
+

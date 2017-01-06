@@ -1,0 +1,24 @@
+ANS
+
+a)        for (int i = 0; i < SIZE; i++) {
+                    sample [i] = 5;
+                    System.out.println(sample[i]);
+                    }
+          
+          
+b)        int x = sample [0];
+          sample [0] = sample [SIZE-1];
+          sample [SIZE-1] = x;
+
+c)        for (int i = 0; i<SIZE, i++) {
+                    if (sample[i]<0){
+                        sample[i] = Math.abs(sample[i]);
+                    }
+              }
+             
+d)        for (int i = 0; i<SIZE, i++) {
+                    if (i%2 != 0){
+                        System.out.println(sample[i]);
+                    }
+              }
+           

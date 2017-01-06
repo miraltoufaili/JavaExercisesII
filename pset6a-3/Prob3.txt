@@ -1,0 +1,9 @@
+While there is a line in the file, the method will take the first line and the second then print the second 
+before the first and so on until there is no lines left the loop will break. 
+
+
+
+
+
+
+

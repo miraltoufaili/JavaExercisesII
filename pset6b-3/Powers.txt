@@ -1,0 +1,37 @@
+ANS
+
+i.
+
+/*
+class testPowers
+{
+    public static void main(String[] args)
+    {
+        System.out.println(power(2,5));
+    }
+*/
+
+public static double power (double x, int n)
+{
+    if(n%2 == 0) // check if n is even
+    {  n = n/2; // divid n by 2
+                if (n >0 ) { return x * power(x, n-1)* x * power(x, n-1);
+                } else if (n == 0) { return 1.0;
+                }else{ return 1.0 / power(x, -n) * 1.0 / power(x, -n); 
+                     }
+    } else
+    
+    {   if (n > 0) { return x * power(x, n-1);  // original code
+        }else if (n == 0) { return 1.0; 
+        }else{ return 1.0 / power(x, -n); 
+        }
+    }
+}
+
+}
+
+
+
+ii.
+
+513

@@ -1,0 +1,11 @@
+ANS
+
+Remove the static!!
+
+No matter how many objects of type Point we create, there will only be one copy of x and y since they are static!
+A 'static' variable has one copy and it's more of a class level variable not an instance variable. 
+
+
+CORRECTION:
+  private  double x;
+  private  double y;

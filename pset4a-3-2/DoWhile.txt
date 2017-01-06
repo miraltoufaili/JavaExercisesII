@@ -1,0 +1,19 @@
+ORIGINAL: 
+do { 
+            i++;
+            j++;
+               System.out.println(i * j - j);
+            } while (i < 20 && j*j <= 2500);
+     
+     
+            
+ANS:  
+
+i++;
+j++;
+System.out.println(i * j - j)
+while (i < 20 && j*j <= 2500 ){
+ i++;
+ j++;
+ System.out.println(i * j - j);
+ }

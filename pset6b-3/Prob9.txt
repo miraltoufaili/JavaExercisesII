@@ -1,0 +1,14 @@
+This program determines if the input number is a negative or a positive. 
+A negative number outputs a zero while a positive number outputs a 1. 
+
+in ax           ax = 7                             ax = -7 
+copy m1,ax      m1 = 7                             m1 = -7
+sub ax, m1      ax = ax - m1 = 0                   ax = ax - m1 = 0
+cmp ax, m1      0 ? 7 ==> 0<7                      0 ? -7  
+jb lab1         ==> jump to lab 1                  ==> continue                                
+out ax                                             OUT 0
+jmp lab2                                           jump to lab2 (skipping lab1)
+lab1: copya x,m1   ax = 7
+div ax, m1         ax/m1 = 1
+out ax             OUT 1
+lab2: halt

@@ -1,0 +1,25 @@
+ANS
+// my laptop kept freezing, I had trouble with finding my values. I hope they are in the right range 
+
+a) 
+
+10000: 0.0510 seconds
+20000: 0.3870 seconds
+40000: 1.6670 seconds
+80000: 5.7900 seconds
+160000: 26.4480 seconds
+320000: 91.6770 seconds 
+
+
+b)
+
+10000: 0.0350 seconds
+20000: 0.330 seconds
+40000: 0.0380 seconds
+80000: 0.0330  seconds
+160000: 0.0250 seconds
+320000: 0.0240 seconds 
+
+
+c) 
+MaxIncrease has a runtime of O(n2)

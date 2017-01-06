@@ -1,0 +1,9 @@
+ANS
+
+a) for mystery(7) ==> 8
+
+b) for mystery (42) ==> 53
+
+c) for mystery (-790) ==> -=801
+
+d) for mystery (89294) ==> 90305

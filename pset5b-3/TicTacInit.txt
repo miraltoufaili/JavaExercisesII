@@ -1,0 +1,29 @@
+ANS
+
+   char [][] list = {
+            {'O', ' ', ' '},
+            {' ', 'X', 'O'},
+            {'X', 'O', 'X'} };
+            
+
+
+
+
+
+// code
+
+import java.util.Arrays;
+
+public class TicTacInit  {
+    
+   public static void main(String[] args)
+   {
+       char [][] list = {
+            {'O', ' ', ' '},
+            {' ', 'X', 'O'},
+            {'X', 'O', 'X'} };
+            
+      
+        System.out.println(Arrays.toString(list));  
+   }
+}

@@ -1,0 +1,36 @@
+ANS: 
+Many a fred in the fred of concentration
+Many a student in the department of computer science
+
+Explanation: 
+
+First Sentence: 
+
+sentence (student, "fred", concentration);
+
+Method: String concentration,   String fred,   String foo
+                 |                   |               |
+Given:         student            "fred"         concentration
+                 |                   |               |
+              concenration         "fred"           fred
+     
+Sentence: ("Many a " + foo + " in the " + fred + " of " +  concentration);
+Replace ==> ("Many a " fred + " in the " + fred + " of " + concentration)
+
+==> Many a fred in the fred of concentration
+
+
+Similary for sentence two: 
+sentence(fred, computer, department);
+
+Method: String concentration,   String fred,   String foo
+                 |                   |               |
+Given:         fred              computer        department
+                 |                   |               |
+          computer science       department       student
+     
+Sentence: ("Many a " + foo + " in the " + fred + " of " +  concentration);
+Replace ==> ("Many a " student + " in the " + deparment + " of " + computer science)
+
+==> Many a student in the department of computer science
+
